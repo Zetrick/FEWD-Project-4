@@ -10,24 +10,25 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .default {
-  background-color: $color-secondary;
+  @include button-builder($color-secondary);
 }
 
 .error {
-  background-color: $color-error;
+  @include button-builder($color-error);
 }
 
 .info {
-  background-color: $color-info;
+  @include button-builder($color-info);
 }
 
 .success {
-  background-color: $color-success;
+  @include button-builder($color-success);
 }
 
 .warning {
-  background-color: $color-warning;
+  @include button-builder($color-warning);
 }

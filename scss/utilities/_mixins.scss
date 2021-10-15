@@ -3,3 +3,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@mixin button-builder ($btn-bg) {
+    background-color: $btn-bg;
+    transition: background-color .15s ease-in-out;
+
+    &:hover {
+        background-color: lighten($btn-bg, 15%);
+    }
+}
