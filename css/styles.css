@@ -344,6 +344,21 @@ template {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
@@ -367,24 +382,6 @@ template {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
-}
-
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-* {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* ============================================= */
@@ -548,8 +545,8 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
 .nav-link:hover {
